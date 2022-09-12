@@ -1,5 +1,6 @@
 
-body {
+/*this style to be deleted - just to show the clear light button */
+body { 
   background-color: #948157;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
@@ -12,7 +13,6 @@ body {
 	justify-content: center;
   text-transform: uppercase;
 	letter-spacing: 1.63px;
-  /* font-family: sans-serif; */
   background: transparent;
   font-size: 20px;
   height: 74px;
@@ -24,7 +24,6 @@ body {
 button:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
-
 
 .btn a {
   text-decoration: none;
@@ -41,22 +40,15 @@ button:not(:disabled):not(.disabled) {
   border: 1px solid #fff; 
 }
 
-.btn-lt a { 
-  color: #fff; 
-}
+.btn-lt a { color: #fff; }
 
 .btn-bl {
   background-color: #D6F0FF;
   border: none;
-
 }
 
 .btn-bl a { color: #474747; }
 
-.btn-dark { 
-  background-color: #000; 
-}
+.btn-dark { background-color: #000; }
 
-.btn-dark a { 
-  color: #fff; 
-}
+.btn-dark a { color: #fff; }
