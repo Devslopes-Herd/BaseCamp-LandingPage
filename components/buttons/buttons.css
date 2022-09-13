@@ -1,11 +1,3 @@
-
-/*this style to be deleted - just to show the clear light button */
-body { 
-  background-color: #948157;
-  box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
-}
-
 .btn {
 	font-weight: 800;
 	display: inline-flex;
